@@ -1,0 +1,49 @@
+Cấu trúc thư muc 
+Minionlab
+- config.json: chỉnh cấu hình tool 
+- imei_map.json: không cần quan tâm
+- minionlab.exe: file chạy bot window 
+- minionlab: file chạy bot linux
+- proxies.txt: chứa proxies định dạng: ip:port:user:pass 
+- solanaWallets.txt: chứa ví sol định dạng: Address|Base58 PrivateKey
+- tokens.txt: chứa token để chạy các chức năng ( ko quan tâm )
+
+
+
+{
+    "waitTime": 86400, // thời gian chờ sau mỗi lần chạy xong 
+    "numberThread": 1,  // số luồng chạy 
+    "checkProxy": true, // check proxies live
+    "refCode": "iweKIaCY", // mã ref minionlab
+    "password": "Tunzankies123@" // password minionlab
+}
+
+
+
+
+╔═══════════════════════════════════════════════╗
+║              MENU CHỨC NĂNG                   ║
+╠═══════════════════════════════════════════════╣
+║  [1] Buff Reff                                ║
+║  [2] Treo Node                                ║
+║  [3] Get token                                ║
+║  [4] Liên kết ví sol                          ║
+║  [5] Thoát                                    ║
+╚═══════════════════════════════════════════════╝
+
+[1]: Buff ref vô hạn, khuyến khích chạy từ 10-20 luồng 
+=> Khi buff xong: lưu thông số vào file excel (accounts.xlsx)
+        email	           password	    refCode
+rpu3ol@punkproof.com	Tunzankies123@	NAtarhNp
+
+=> Token được lưu vào file tokens.txt để chạy các chức năng khác ( ko làm mất )
+
+
+[2]: Treo node: Treo extension 
+[3]: Chế độ lấy lại token ( trường hợp bị mất )
+[4]: Liết kết ví mạng sol: nhớ để số ví = số token ( nghĩa là số ví phải bằng số tài khoản cần lket)
+- Định dạng ví: Address|Base58 PrivateKey
+
+
+
+Cần hỗ trợ liên hệ telegram: @tunankies 
