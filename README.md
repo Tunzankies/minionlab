@@ -89,7 +89,7 @@ Address|Base58 PrivateKey
    - Thêm ví Solana vào `solanaWallets.txt` (nếu cần)
 
 2. **Chạy bot**:
-   - Chạy lệnh sau : npm i ts-curl-impersonate và npm i keytar
+   - Chạy lệnh sau ( mở cmd lên ) : npm i ts-curl-impersonate và npm i keytar
    - Chạy: Start.bat
 
 3. **Chọn chức năng**:
