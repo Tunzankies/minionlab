@@ -8,8 +8,7 @@ Bot tự động hóa cho MinionLab với các chức năng đa dạng bao gồm
 MinionLab/
 ├── config.json          # Cấu hình tool
 ├── imei_map.json        # File hệ thống (không cần chỉnh sửa)
-├── minionlab.exe        # File chạy bot Windows
-├── minionlab            # File chạy bot Linux
+├── start.bat            # File chạy bot
 ├── proxies.txt          # Danh sách proxies (ip:port:user:pass)
 ├── solanaWallets.txt    # Danh sách ví Solana (Address|Base58 PrivateKey)
 └── tokens.txt           # Token để chạy các chức năng
@@ -90,8 +89,8 @@ Address|Base58 PrivateKey
    - Thêm ví Solana vào `solanaWallets.txt` (nếu cần)
 
 2. **Chạy bot**:
-   - Windows: Chạy `minionlab.exe`
-   - Linux: Chạy `./minionlab`
+   - Chạy lệnh sau : npm i ts-curl-impersonate và npm i keytar
+   - Chạy: Start.bat
 
 3. **Chọn chức năng**:
    - Nhập số tương ứng với chức năng mong muốn

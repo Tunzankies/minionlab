@@ -1,9 +1,8 @@
 Cấu trúc thư muc 
 Minionlab
 - config.json: chỉnh cấu hình tool 
-- imei_map.json: không cần quan tâm
-- minionlab.exe: file chạy bot window 
-- minionlab: file chạy bot linux
+- imei_map.json: không cần quan tâm  
+- start.bat: file chạy bot
 - proxies.txt: chứa proxies định dạng: ip:port:user:pass 
 - solanaWallets.txt: chứa ví sol định dạng: Address|Base58 PrivateKey
 - tokens.txt: chứa token để chạy các chức năng ( ko quan tâm )
